@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+DefaultContentLanguage = "ja"
+title = "morix1500"
+hasCJKLanguage = true
+languageCode  = "ja"
+theme = "beautifulhugo"
+
+[Params]
+  logo = "profile.jpg"
+  favicon = "favicon.ico"
+
+[Author]
+  name = "morix1500"
+  twitter = "morix1500"
+  github = "morix1500"
+  facebook = "shota.morix"
+  email = "rade1500@gmail.com"
+
+[[menu.main]]
+    name = "Blog"
+    url = "https://blog.haramishio.xyz"
+    weight = 1
