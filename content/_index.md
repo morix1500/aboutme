@@ -4,6 +4,16 @@ Morix（もりっくす）です。
 その経歴を生かし、インフラを主軸にしながらその他の技術も  
 まんべんなく実務・個人で取り組んでます。  
 
+* [Contents](#contents)
+  - [Services](#services)
+  - [Blog](#blog)
+* [Skills](#skills)
+* [Activities](#activities)
+  - [Community](#community)
+  - [Presentation](#presentation)
+* [Biography](#biography)
+* [Wishlist](#wishlist)
+
 ## Contents
 ### Services
 * [ゴミ出し通知くん](https://trash.haramishio.xyz)
@@ -19,24 +29,25 @@ Morix（もりっくす）です。
 * Infrastructure
     - AWS・GCPを用いたゲームAPIのインフラ構築・運用
     - ログ収集・負荷監視・データ分析などの基板設計・構築・運用
+    - CI/CD環境の構築・運用
     - WordPress環境の構築・運用
 * ServerSide
-    - Golang / PHP / Java / Python / Shell / Ruby
+    - Golang / PHP / Java / Python / Ruby
     - 上記言語を使用したアプリケーションの作成
 * Frontend
     - HTML / CSS / JavaScript
-    - jQuery / React / Vue
+    - jQuery / React.js / Vue.js
     - 上記言語・フレームワークを使用したアプリケーションの作成
     - Androidアプリの実務での新規作成経験あり
 
 ```bash
 # 関心・スキルの強さ
 Infrastructure: [##################==] 90%
-ServerSide    : [##############======] 70%
-Frontend      : [##########==========] 50%
+ServerSide    : [################====] 80%
+Frontend      : [############========] 60%
 ```
 
-## Activity
+## Activities
 ### Community
 * インフラ勉強会 運営活動
 
@@ -53,7 +64,7 @@ Frontend      : [##########==========] 50%
 ## Biography
 | 期間                | 会社                       | 職種                |
 | ---                 | ---                        | ---                 |
-| 2010/04~2016/05     | 株式会社アローズシステムズ | Webアプリエンジニア |
+| 2010/04 ~ 2016/05     | 株式会社アローズシステムズ | Webアプリエンジニア |
 | 2016/05~2018/03     | 株式会社モブキャスト       | インフラエンジニア  |
 | 2018/04~            | 株式会社プレンティー       | SRE                 |
 
