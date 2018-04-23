@@ -1,11 +1,12 @@
 baseURL = "http://example.org/"
 DefaultContentLanguage = "ja"
 title = "morix1500"
-hasCJKLanguage = true
 languageCode  = "ja"
 theme = "beautifulhugo"
+canonifyurls = true
 
 [Params]
+  subtitle = "It's a portfolio page"
   logo = "profile.jpg"
   favicon = "favicon.ico"
 

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>morix1500</title>
+  <meta property="og:title" content="morix1500" />
+  <meta name="twitter:title" content="morix1500" />
+  <meta name="description" content="About &ldquo;Morix&rdquo; Morix（もりっくす）です。
+これまでフロント・サーバーサイド・インフラと職歴を積んできました。
+その経歴を生かし、インフラを主軸にしながらその他の技術も
+まんべんなく実務・個人で取り組んでます。
+ Contents  Services Blog  Skills Activities  Presentation  Biography Wishlist  Contents Services  ゴミ出し通知くん  毎朝今日出すゴミを通知してくれるPWAアプリ   Blog  ハラミTech  自身で運営している技術ブログサイト  Qiita  Qiitaの記事   Skills  Infrastructure  AWS・GCPを用いたゲームAPIのインフラ構築・運用 ログ収集・負荷監視・データ分析などの基板設計・構築・運用 CI/CD環境の構築・運用 WordPress環境の構築・運用  ServerSide  Golang / PHP / Java / Python / Ruby 上記言語を使用したアプリケーションの作成  Frontend  HTML / CSS / JavaScript jQuery / React.">
+  <meta property="og:description" content="About &ldquo;Morix&rdquo; Morix（もりっくす）です。
+これまでフロント・サーバーサイド・インフラと職歴を積んできました。
+その経歴を生かし、インフラを主軸にしながらその他の技術も
+まんべんなく実務・個人で取り組んでます。
+ Contents  Services Blog  Skills Activities  Presentation  Biography Wishlist  Contents Services  ゴミ出し通知くん  毎朝今日出すゴミを通知してくれるPWAアプリ   Blog  ハラミTech  自身で運営している技術ブログサイト  Qiita  Qiitaの記事   Skills  Infrastructure  AWS・GCPを用いたゲームAPIのインフラ構築・運用 ログ収集・負荷監視・データ分析などの基板設計・構築・運用 CI/CD環境の構築・運用 WordPress環境の構築・運用  ServerSide  Golang / PHP / Java / Python / Ruby 上記言語を使用したアプリケーションの作成  Frontend  HTML / CSS / JavaScript jQuery / React.">
+  <meta name="twitter:description" content="About &ldquo;Morix&rdquo; Morix（もりっくす）です。
+これまでフロント・サーバーサイド・インフラと職歴を積んできました。
+その経歴を生かし、インフラを主軸にしながらその他の技術も
+まんべんなく実務・個人で取り組んでます。
+ Contents  Services Blog  Skills Activities  Presentation  Biography …">
+  <meta name="author" content="morix1500"/>
+  <link href='http://example.org/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="http://example.org/profile.jpg" />
+  <meta name="twitter:image" content="http://example.org/profile.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@morix1500" />
+  <meta name="twitter:creator" content="@morix1500" />
+  <meta property="og:url" content="http://example.org/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="morix1500" />
+
+  <meta name="generator" content="Hugo 0.30.2" />
+  <link rel="canonical" href="http://example.org/" />
+  <link rel="alternate" href="http://example.org/index.xml" type="application/rss+xml" title="morix1500">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://example.org/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://example.org/css/syntax.css" /><link rel="stylesheet" href="http://example.org/css/codeblock.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">メニューを切り替え</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://example.org/">morix1500</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="https://blog.haramishio.xyz">Blog</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="morix1500" href="http://example.org/">
+            <img class="avatar-img" src="http://example.org/profile.jpg" alt="morix1500" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>morix1500</h1>
+                
+                  
+                    <hr class="small">
+                    <span class="page-subheading">It&#39;s a portfolio page</span>
+                  
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+              <li>
+                <a href="mailto:rade1500@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/shota.morix" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/morix1500" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/morix1500" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+      <article role="main" class="blog-post">
+        
+
+<h2 id="about-morix">About &ldquo;Morix&rdquo;</h2>
+
+<p>Morix（もりっくす）です。<br />
+これまでフロント・サーバーサイド・インフラと職歴を積んできました。<br />
+その経歴を生かし、インフラを主軸にしながらその他の技術も<br />
+まんべんなく実務・個人で取り組んでます。</p>
+
+<ul>
+<li><a href="#contents">Contents</a>
+
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#blog">Blog</a></li>
+</ul></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#activities">Activities</a>
+
+<ul>
+<li><a href="#presentation">Presentation</a></li>
+</ul></li>
+<li><a href="#biography">Biography</a></li>
+<li><a href="#wishlist">Wishlist</a></li>
+</ul>
+
+<h2 id="contents">Contents</h2>
+
+<h3 id="services">Services</h3>
+
+<ul>
+<li><a href="https://trash.haramishio.xyz">ゴミ出し通知くん</a>
+
+<ul>
+<li>毎朝今日出すゴミを通知してくれるPWAアプリ</li>
+</ul></li>
+</ul>
+
+<h3 id="blog">Blog</h3>
+
+<ul>
+<li><a href="https://blog.haramishio.xyz">ハラミTech</a>
+
+<ul>
+<li>自身で運営している技術ブログサイト</li>
+</ul></li>
+<li><a href="https://qiita.com/Morix1500">Qiita</a>
+
+<ul>
+<li>Qiitaの記事</li>
+</ul></li>
+</ul>
+
+<h2 id="skills">Skills</h2>
+
+<ul>
+<li>Infrastructure
+
+<ul>
+<li>AWS・GCPを用いたゲームAPIのインフラ構築・運用</li>
+<li>ログ収集・負荷監視・データ分析などの基板設計・構築・運用</li>
+<li>CI/CD環境の構築・運用</li>
+<li>WordPress環境の構築・運用</li>
+</ul></li>
+<li>ServerSide
+
+<ul>
+<li>Golang / PHP / Java / Python / Ruby</li>
+<li>上記言語を使用したアプリケーションの作成</li>
+</ul></li>
+<li>Frontend
+
+<ul>
+<li>HTML / CSS / JavaScript</li>
+<li>jQuery / React.js / Vue.js</li>
+<li>上記言語・フレームワークを使用したアプリケーションの作成</li>
+<li>Androidアプリの実務での新規作成経験あり</li>
+</ul></li>
+</ul>
+
+<pre><code class="language-bash"># 関心・スキルの強さ
+Infrastructure: [##################==] 90%
+ServerSide    : [################====] 80%
+Frontend      : [############========] 60%
+
+# 保有スキル
+## AWS
+EC2/RDS(Aurora/MySQL)/S3/CloudFront/Kinesis/Elasticache/ElasticSearchService/Route53/VPC/Lambda/API Gateway
+
+## GCP
+GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase
+
+## CDN
+Akamai/CloudFront/Fastly/CloudCDN
+
+## Other
+Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis
+</code></pre>
+
+<h2 id="activities">Activities</h2>
+
+<h3 id="presentation">Presentation</h3>
+
+<table>
+<thead>
+<tr>
+<th>日付</th>
+<th>イベント名</th>
+<th>タイトル</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2017/10/24</td>
+<td>GoビギナーズLT大会！「最近、Go言語始めました」の会</td>
+<td><a href="https://speakerdeck.com/morix1500/godeying-yu-tuitowoyin-sheng-hua-surutuitutabotutowozuo-tuta">Goで英語ツイートを音声化するツイッターボットを作った</a></td>
+</tr>
+
+<tr>
+<td>2017/10/28</td>
+<td>Rakuten Technology Conference LT</td>
+<td><a href="https://speakerdeck.com/morix1500/she-nei-falsequan-huan-jing-wohttpsnisitahua">社内の全環境をhttpsにした話</a></td>
+</tr>
+
+<tr>
+<td>2018/03/18</td>
+<td>インフラ勉強会</td>
+<td><a href="https://wp.infra-workshop.tech/event/wordpress%E3%82%92%E9%80%9A%E3%81%97%E3%81%A6fastly%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/">Wordpressを通してFastlyを使ってみる</a></td>
+</tr>
+
+<tr>
+<td>2018/04/15</td>
+<td>インフラ勉強会</td>
+<td><a href="https://speakerdeck.com/morix1500/fu-he-shi-yan-ru-men">負荷試験入門</a></td>
+</tr>
+
+<tr>
+<td>2018/04/16</td>
+<td>PWA Beginners 勉強会 #3</td>
+<td><a href="https://speakerdeck.com/morix1500/pwawoshi-tutarajia-ninu-rarenakunatutahua">PWAを使ったら嫁に怒られなくなった話</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="biography">Biography</h2>
+
+<table>
+<thead>
+<tr>
+<th>期間</th>
+<th>会社</th>
+<th>職種</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><sup>2010</sup>&frasl;<sub>04</sub>~<sup>2016</sup>&frasl;<sub>05</sub></td>
+<td>株式会社アローズシステムズ</td>
+<td>Webアプリエンジニア</td>
+</tr>
+
+<tr>
+<td><sup>2016</sup>&frasl;<sub>05</sub>~<sup>2018</sup>&frasl;<sub>03</sub></td>
+<td>株式会社モブキャスト</td>
+<td>インフラエンジニア</td>
+</tr>
+
+<tr>
+<td><sup>2018</sup>&frasl;<sub>04</sub>~</td>
+<td>株式会社プレンティー</td>
+<td>SRE</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="wishlist">WishList</h2>
+
+<p><a href="https://www.amazon.co.jp/gp/registry/wishlist/1HO57VMPG9Y58/ref=nav_wishlist_lists_1">ほしいものリスト</a></p>
+
+      </article>
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p>&copy; Shota Nishino(morix1500)</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://example.org/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="http://example.org/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+

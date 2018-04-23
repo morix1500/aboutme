@@ -9,7 +9,6 @@ Morix（もりっくす）です。
   - [Blog](#blog)
 * [Skills](#skills)
 * [Activities](#activities)
-  - [Community](#community)
   - [Presentation](#presentation)
 * [Biography](#biography)
 * [Wishlist](#wishlist)
@@ -45,12 +44,22 @@ Morix（もりっくす）です。
 Infrastructure: [##################==] 90%
 ServerSide    : [################====] 80%
 Frontend      : [############========] 60%
+
+# 保有スキル
+## AWS
+EC2/RDS(Aurora/MySQL)/S3/CloudFront/Kinesis/Elasticache/ElasticSearchService/Route53/VPC/Lambda/API Gateway
+
+## GCP
+GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase
+
+## CDN
+Akamai/CloudFront/Fastly/CloudCDN
+
+## Other
+Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis
 ```
 
 ## Activities
-### Community
-* インフラ勉強会 運営活動
-
 ### Presentation
 
 | 日付     | イベント名 | タイトル |
@@ -64,7 +73,7 @@ Frontend      : [############========] 60%
 ## Biography
 | 期間                | 会社                       | 職種                |
 | ---                 | ---                        | ---                 |
-| 2010/04 ~ 2016/05     | 株式会社アローズシステムズ | Webアプリエンジニア |
+| 2010/04~2016/05     | 株式会社アローズシステムズ | Webアプリエンジニア |
 | 2016/05~2018/03     | 株式会社モブキャスト       | インフラエンジニア  |
 | 2018/04~            | 株式会社プレンティー       | SRE                 |
 
