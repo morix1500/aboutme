@@ -4,6 +4,9 @@ Morix（もりっくす）です。
 その経歴を生かし、インフラを主軸にしながらその他の技術も  
 まんべんなく実務・個人で取り組んでます。  
 
+**副業の依頼募集中です！  
+これを見て興味を持った方は上のSNSのいずれかから連絡ください！**
+
 * [Contents](#contents)
   - [Services](#services)
   - [Blog](#blog)
@@ -78,4 +81,5 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | 2018/04~            | 株式会社プレンティー       | SRE                 |
 
 ## WishList
+だれか買ってください|дﾟ)  
 [ほしいものリスト](https://www.amazon.co.jp/gp/registry/wishlist/1HO57VMPG9Y58/ref=nav_wishlist_lists_1)
