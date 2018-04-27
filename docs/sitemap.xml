@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://morix1500.github.io/aboutme/</loc>
+    <loc>https://about.haramishio.xyz/</loc>
   </url>
   
   <url>
-    <loc>https://morix1500.github.io/aboutme/categories/</loc>
+    <loc>https://about.haramishio.xyz/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://morix1500.github.io/aboutme/tags/</loc>
+    <loc>https://about.haramishio.xyz/tags/</loc>
     <priority>0</priority>
   </url>
   

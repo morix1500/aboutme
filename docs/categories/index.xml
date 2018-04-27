@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on morix1500</title>
-    <link>https://morix1500.github.io/aboutme/categories/</link>
+    <link>https://about.haramishio.xyz/categories/</link>
     <description>Recent content in Categories on morix1500</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <managingEditor>rade1500@gmail.com (morix1500)</managingEditor>
     <webMaster>rade1500@gmail.com (morix1500)</webMaster>
     
-	<atom:link href="https://morix1500.github.io/aboutme/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://about.haramishio.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
