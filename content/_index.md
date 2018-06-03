@@ -11,6 +11,7 @@ Morix（もりっくす）です。
   - [Services](#services)
   - [Blog](#blog)
 * [Skills](#skills)
+  - [OSS](#oss)
 * [Activities](#activities)
   - [Presentation](#presentation)
 * [Biography](#biography)
@@ -29,7 +30,7 @@ Morix（もりっくす）です。
 
 ## Skills
 * Infrastructure
-    - AWS・GCPを用いたゲームAPIのインフラ構築・運用
+    - AWS・GCPを用いたAPIのインフラ構築・運用
     - ログ収集・負荷監視・データ分析などの基板設計・構築・運用
     - CI/CD環境の構築・運用
     - WordPress環境の構築・運用
@@ -53,7 +54,7 @@ Frontend      : [############========] 60%
 EC2/RDS(Aurora/MySQL)/S3/CloudFront/Kinesis/Elasticache/ElasticSearchService/Route53/VPC/Lambda/API Gateway
 
 ## GCP
-GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase
+GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase/CloudKMS/Cloud Endpoints
 
 ## CDN
 Akamai/CloudFront/Fastly/CloudCDN
@@ -61,6 +62,17 @@ Akamai/CloudFront/Fastly/CloudCDN
 ## Other
 Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis
 ```
+
+### OSS
+自作したOSSの一覧です。  
+
+| 名前 | 概要 |
+| ---  | ---  |
+| [Ruler](https://github.com/morix1500/ruler) | CSVやLTSVを表形式に変換するコマンド |
+| [ec2-search](https://github.com/morix1500/ec2-search) | EC2を複数のAWSアカウントから検索するコマンド |
+| [wildfly-state-monitor](https://github.com/morix1500/wildfly-state-monitor) | Wildflyのデプロイ状況をSlackに通知する監視ツール |
+| [srm](https://github.com/morix1500/srm) | 安全にファイルを削除するコマンド |
+| [cloudkms](https://github.com/morix1500/go-cloudkms) | 秘密鍵などをGCS上に安全に保存・取得できるコマンド |
 
 ## Activities
 ### Presentation
@@ -72,6 +84,7 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | 2018/03/18 | インフラ勉強会 | [Wordpressを通してFastlyを使ってみる](https://wp.infra-workshop.tech/event/wordpress%E3%82%92%E9%80%9A%E3%81%97%E3%81%A6fastly%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/) |
 | 2018/04/15 | インフラ勉強会 | [負荷試験入門](https://speakerdeck.com/morix1500/fu-he-shi-yan-ru-men) |
 | 2018/04/16 | PWA Beginners 勉強会 #3 | [PWAを使ったら嫁に怒られなくなった話](https://speakerdeck.com/morix1500/pwawoshi-tutarajia-ninu-rarenakunatutahua) |
+| 2018/05/23 | しがないラジオMeetup #1 | [自分を強くするためにやってきたこと](https://speakerdeck.com/morix1500/zi-fen-woqiang-kusurutameniyatutekitakoto) |
 
 ## Biography
 | 期間                | 会社                       | 職種                |

@@ -14,14 +14,14 @@
 まんべんなく実務・個人で取り組んでます。
 副業の依頼募集中です！
 これを見て興味を持った方は上のSNSのいずれかから連絡ください！
- Contents  Services Blog  Skills Activities  Presentation  Biography Wishlist  Contents Services  ゴミ出し通知くん  毎朝今日出すゴミを通知してくれるPWAアプリ   Blog  ハラミTech  自身で運営している技術ブログサイト  Qiita  Qiitaの記事   Skills  Infrastructure  AWS・GCPを用いたゲームAPIのインフラ構築・運用 ログ収集・負荷監視・データ分析などの基板設計・構築・運用 CI/CD環境の構築・運用 WordPress環境の構築・運用  ServerSide  Golang / PHP / Java / Python / Ruby 上記言語を使用したアプリケーションの作成  Frontend  HTML / CSS / JavaScript jQuery / React.">
+ Contents  Services Blog  Skills  OSS  Activities  Presentation  Biography Wishlist  Contents Services  ゴミ出し通知くん  毎朝今日出すゴミを通知してくれるPWAアプリ   Blog  ハラミTech  自身で運営している技術ブログサイト  Qiita  Qiitaの記事   Skills  Infrastructure  AWS・GCPを用いたAPIのインフラ構築・運用 ログ収集・負荷監視・データ分析などの基板設計・構築・運用 CI/CD環境の構築・運用 WordPress環境の構築・運用  ServerSide  Golang / PHP / Java / Python / Ruby 上記言語を使用したアプリケーションの作成  Frontend  HTML / CSS / JavaScript jQuery / React.">
   <meta property="og:description" content="About &ldquo;Morix&rdquo; Morix（もりっくす）です。
 これまでフロント・サーバーサイド・インフラと職歴を積んできました。
 その経歴を生かし、インフラを主軸にしながらその他の技術も
 まんべんなく実務・個人で取り組んでます。
 副業の依頼募集中です！
 これを見て興味を持った方は上のSNSのいずれかから連絡ください！
- Contents  Services Blog  Skills Activities  Presentation  Biography Wishlist  Contents Services  ゴミ出し通知くん  毎朝今日出すゴミを通知してくれるPWAアプリ   Blog  ハラミTech  自身で運営している技術ブログサイト  Qiita  Qiitaの記事   Skills  Infrastructure  AWS・GCPを用いたゲームAPIのインフラ構築・運用 ログ収集・負荷監視・データ分析などの基板設計・構築・運用 CI/CD環境の構築・運用 WordPress環境の構築・運用  ServerSide  Golang / PHP / Java / Python / Ruby 上記言語を使用したアプリケーションの作成  Frontend  HTML / CSS / JavaScript jQuery / React.">
+ Contents  Services Blog  Skills  OSS  Activities  Presentation  Biography Wishlist  Contents Services  ゴミ出し通知くん  毎朝今日出すゴミを通知してくれるPWAアプリ   Blog  ハラミTech  自身で運営している技術ブログサイト  Qiita  Qiitaの記事   Skills  Infrastructure  AWS・GCPを用いたAPIのインフラ構築・運用 ログ収集・負荷監視・データ分析などの基板設計・構築・運用 CI/CD環境の構築・運用 WordPress環境の構築・運用  ServerSide  Golang / PHP / Java / Python / Ruby 上記言語を使用したアプリケーションの作成  Frontend  HTML / CSS / JavaScript jQuery / React.">
   <meta name="twitter:description" content="About &ldquo;Morix&rdquo; Morix（もりっくす）です。
 これまでフロント・サーバーサイド・インフラと職歴を積んできました。
 その経歴を生かし、インフラを主軸にしながらその他の技術も
@@ -241,7 +241,11 @@
 <li><a href="#services">Services</a></li>
 <li><a href="#blog">Blog</a></li>
 </ul></li>
-<li><a href="#skills">Skills</a></li>
+<li><a href="#skills">Skills</a>
+
+<ul>
+<li><a href="#oss">OSS</a></li>
+</ul></li>
 <li><a href="#activities">Activities</a>
 
 <ul>
@@ -284,7 +288,7 @@
 <li>Infrastructure
 
 <ul>
-<li>AWS・GCPを用いたゲームAPIのインフラ構築・運用</li>
+<li>AWS・GCPを用いたAPIのインフラ構築・運用</li>
 <li>ログ収集・負荷監視・データ分析などの基板設計・構築・運用</li>
 <li>CI/CD環境の構築・運用</li>
 <li>WordPress環境の構築・運用</li>
@@ -315,7 +319,7 @@ Frontend      : [############========] 60%
 EC2/RDS(Aurora/MySQL)/S3/CloudFront/Kinesis/Elasticache/ElasticSearchService/Route53/VPC/Lambda/API Gateway
 
 ## GCP
-GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase
+GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase/CloudKMS/Cloud Endpoints
 
 ## CDN
 Akamai/CloudFront/Fastly/CloudCDN
@@ -323,6 +327,46 @@ Akamai/CloudFront/Fastly/CloudCDN
 ## Other
 Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis
 </code></pre>
+
+<h3 id="oss">OSS</h3>
+
+<p>自作したOSSの一覧です。</p>
+
+<table>
+<thead>
+<tr>
+<th>名前</th>
+<th>概要</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://github.com/morix1500/ruler">Ruler</a></td>
+<td>CSVやLTSVを表形式に変換するコマンド</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/morix1500/ec2-search">ec2-search</a></td>
+<td>EC2を複数のAWSアカウントから検索するコマンド</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/morix1500/wildfly-state-monitor">wildfly-state-monitor</a></td>
+<td>Wildflyのデプロイ状況をSlackに通知する監視ツール</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/morix1500/srm">srm</a></td>
+<td>安全にファイルを削除するコマンド</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/morix1500/go-cloudkms">cloudkms</a></td>
+<td>秘密鍵などをGCS上に安全に保存・取得できるコマンド</td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="activities">Activities</h2>
 
@@ -366,6 +410,12 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 <td>2018/04/16</td>
 <td>PWA Beginners 勉強会 #3</td>
 <td><a href="https://speakerdeck.com/morix1500/pwawoshi-tutarajia-ninu-rarenakunatutahua">PWAを使ったら嫁に怒られなくなった話</a></td>
+</tr>
+
+<tr>
+<td>2018/05/23</td>
+<td>しがないラジオMeetup #1</td>
+<td><a href="https://speakerdeck.com/morix1500/zi-fen-woqiang-kusurutameniyatutekitakoto">自分を強くするためにやってきたこと</a></td>
 </tr>
 </tbody>
 </table>
