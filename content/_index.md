@@ -15,12 +15,15 @@ Morix（もりっくす）です。
 * [Activities](#activities)
   - [Presentation](#presentation)
 * [Biography](#biography)
+  - [Subcontracting](#subcontracting)
 * [Wishlist](#wishlist)
 
 ## Contents
 ### Services
 * [ゴミ出し通知くん](https://trash.haramishio.xyz)
   - 毎朝今日出すゴミを通知してくれるPWAアプリ
+* [ボッチサーチ](https://bocchi-search.com)
+  - 勉強会でぼっちにならないためのキッカケ作りをするアプリ
 
 ### Blog
 * [ハラミTech](https://blog.haramishio.xyz)
@@ -34,12 +37,14 @@ Morix（もりっくす）です。
     - ログ収集・負荷監視・データ分析などの基板設計・構築・運用
     - CI/CD環境の構築・運用
     - WordPress環境の構築・運用
+    - Kubernetes環境の構築
 * ServerSide
     - Golang / PHP / Java / Python / Ruby
     - 上記言語を使用したアプリケーションの作成
+    - RESTやgRPCを用いたAPI開発
 * Frontend
     - HTML / CSS / JavaScript
-    - jQuery / React.js / Vue.js
+    - jQuery / Vue.js
     - 上記言語・フレームワークを使用したアプリケーションの作成
     - Androidアプリの実務での新規作成経験あり
 
@@ -51,16 +56,16 @@ Frontend      : [############========] 60%
 
 # 保有スキル
 ## AWS
-EC2/RDS(Aurora/MySQL)/S3/CloudFront/Kinesis/Elasticache/ElasticSearchService/Route53/VPC/Lambda/API Gateway
+EC2/RDS(Aurora/MySQL)/S3/CloudFront/Kinesis/Elasticache/ElasticSearchService/Route53/VPC/Lambda/API Gateway/Glue
 
 ## GCP
-GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase RealtimeDatabase/CloudKMS/Cloud Endpoints
+GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/Firebase/CloudKMS/Cloud Endpoints
 
 ## CDN
 Akamai/CloudFront/Fastly/CloudCDN
 
 ## Other
-Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis
+Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis/Kubernetes
 ```
 
 ### OSS
@@ -85,6 +90,7 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | 2018/04/15 | インフラ勉強会 | [負荷試験入門](https://speakerdeck.com/morix1500/fu-he-shi-yan-ru-men) |
 | 2018/04/16 | PWA Beginners 勉強会 #3 | [PWAを使ったら嫁に怒られなくなった話](https://speakerdeck.com/morix1500/pwawoshi-tutarajia-ninu-rarenakunatutahua) |
 | 2018/05/23 | しがないラジオMeetup #1 | [自分を強くするためにやってきたこと](https://speakerdeck.com/morix1500/zi-fen-woqiang-kusurutameniyatutekitakoto) |
+| 2018/06/19 | 転職成功LT #1 | [転職をする前にやっておきたいこと](https://speakerdeck.com/morix1500/what-you-want-to-do-before-you-change-your-career) |
 
 ## Biography
 | 期間                | 会社                       | 職種                |
@@ -93,6 +99,17 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | 2016/05~2018/03     | 株式会社モブキャスト       | インフラエンジニア  |
 | 2018/04~            | 株式会社プレンティー       | SRE                 |
 
-## WishList
-だれか買ってください|дﾟ)  
-[ほしいものリスト](https://www.amazon.co.jp/gp/registry/wishlist/1HO57VMPG9Y58/ref=nav_wishlist_lists_1)
+### Subcontracting 
+副業をやっています。その実績です。  
+
+* スタディプラス株式会社様
+  - [データ分析基盤の構築](http://tech.studyplus.co.jp/entry/2018/08/02/111355)
+* 一般社団法人全日本ピアノ指導者協会様
+  - インフラに関する講師業
+      - Kubernetesハンズオン
+      - Fluentdハンズオン
+
+## Tipping
+Kyashにて投げ銭募集中！！！
+
+<img src="https://cdn-ak.f.st-hatena.com/images/fotolife/m/mori_morix/20180801/20180801235534.png" style="width: 300px">
