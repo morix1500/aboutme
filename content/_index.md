@@ -3,6 +3,7 @@ Morix（もりっくす）です。
 これまでフロント・サーバーサイド・インフラと職歴を積んできました。  
 その経歴を生かし、インフラを主軸にしながらその他の技術も  
 まんべんなく実務・個人で取り組んでます。  
+現職はSREです。  
 
 **副業の依頼募集中です！  
 これを見て興味を持った方は上のSNSのいずれかから連絡ください！**
@@ -13,6 +14,7 @@ Morix（もりっくす）です。
 * [Skills](#skills)
   - [OSS](#oss)
 * [Activities](#activities)
+  - [EventManagement](#eventmanagement)
   - [Presentation](#presentation)
 * [Biography](#biography)
   - [Subcontracting](#subcontracting)
@@ -20,10 +22,12 @@ Morix（もりっくす）です。
 
 ## Contents
 ### Services
+自身で開発・運営しているサービスです。
+
 * [ゴミ出し通知くん](https://trash.haramishio.xyz)
-  - 毎朝今日出すゴミを通知してくれるPWAアプリ
+  - 毎朝今日出すゴミを通知してくれるPWAアプリ。Androidのみ対応
 * [ボッチサーチ](https://bocchi-search.com)
-  - 勉強会でぼっちにならないためのキッカケ作りをするアプリ
+  - 勉強会でぼっちにならないためのキッカケ作りをするWebアプリ
 
 ### Blog
 * [ハラミTech](https://blog.haramishio.xyz)
@@ -37,7 +41,7 @@ Morix（もりっくす）です。
     - ログ収集・負荷監視・データ分析などの基板設計・構築・運用
     - CI/CD環境の構築・運用
     - WordPress環境の構築・運用
-    - Kubernetes環境の構築
+    - Kubernetes環境の構築・運用
 * ServerSide
     - Golang / PHP / Java / Python / Ruby
     - 上記言語を使用したアプリケーションの作成
@@ -65,7 +69,7 @@ GCE/GCS/CloudSQL/CloudDNS/GKE/CloudCDN/Firebase Hosting/Firebase CloudFunctions/
 Akamai/CloudFront/Fastly/CloudCDN
 
 ## Other
-Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis/Kubernetes
+Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/Ansible/OpenVPN/Prometheus/Redash/WildFly/Redis/Kubernetes/Vue.js/Vuex
 ```
 
 ### OSS
@@ -80,7 +84,15 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | [cloudkms](https://github.com/morix1500/go-cloudkms) | 秘密鍵などをGCS上に安全に保存・取得できるコマンド |
 
 ## Activities
+
+### EventManagement
+主催しているイベント一覧です。
+
+* [ITエンジニアのための”アニメ”から学びを得る勉強会「あにべん！」](https://aniben.connpass.com/)
+    - アニメから学んだ仕事に関する学びを共有する勉強会
+
 ### Presentation
+登壇歴です。
 
 | 日付     | イベント名 | タイトル |
 | ---      | ---        | --- |
@@ -91,8 +103,12 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | 2018/04/16 | PWA Beginners 勉強会 #3 | [PWAを使ったら嫁に怒られなくなった話](https://speakerdeck.com/morix1500/pwawoshi-tutarajia-ninu-rarenakunatutahua) |
 | 2018/05/23 | しがないラジオMeetup #1 | [自分を強くするためにやってきたこと](https://speakerdeck.com/morix1500/zi-fen-woqiang-kusurutameniyatutekitakoto) |
 | 2018/06/19 | 転職成功LT #1 | [転職をする前にやっておきたいこと](https://speakerdeck.com/morix1500/what-you-want-to-do-before-you-change-your-career) |
+| 2018/08/04 | インフラ勉強会 | [Firebaseってなに？](https://wp.infra-workshop.tech/event/firebase%E3%81%A3%E3%81%A6%E3%81%AA%E3%81%AB%EF%BC%9F/)
+| 2018/08/23 | あにべん #1 | [オーバーロードで学んだチームマネジメント](https://speakerdeck.com/morix1500/team-management-learned-through-overlord) |
 
 ## Biography
+職歴です。
+
 | 期間                | 会社                       | 職種                |
 | ---                 | ---                        | ---                 |
 | 2010/04~2016/05     | 株式会社アローズシステムズ | Webアプリエンジニア |
