@@ -14,6 +14,7 @@ Morix（もりっくす）です。
 * [Skills](#skills)
   - [OSS](#oss)
 * [Activities](#activities)
+  - [Podcst](#podcast)
   - [EventManagement](#eventmanagement)
   - [Presentation](#presentation)
 * [Biography](#biography)
@@ -84,6 +85,14 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
 | [cloudkms](https://github.com/morix1500/go-cloudkms) | 秘密鍵などをGCS上に安全に保存・取得できるコマンド |
 
 ## Activities
+
+### Podcast
+出演しているPodcast一覧です。  
+
+| 日付 | 出演番組 | タイトル |
+| --- | --- | --- |
+| 2018/07/26 | [しがないラジオ](https://shiganai.org/) | [sp.34a【ゲスト:morix1500】SES出向先ガチャを勝ち抜くエンジニアの楽しい現場めぐり](https://shiganai.org/ep/sp34amorix1500) |
+| 2018/07/31 | [しがないラジオ](https://shiganai.org/) | [sp.34b【ゲスト: morix1500】雑魚エンジニアの成長戦略と楽しいインフラ勉強会](https://shiganai.org/ep/sp34b-morix1500) |
 
 ### EventManagement
 主催しているイベント一覧です。
