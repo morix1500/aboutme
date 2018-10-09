@@ -23,12 +23,16 @@ Morix（もりっくす）です。
 
 ## Contents
 ### Services
-自身で開発・運営しているサービスです。
+自身で開発・運営しているサービスやツールです。
 
 * [ゴミ出し通知くん](https://trash.haramishio.xyz)
   - 毎朝今日出すゴミを通知してくれるPWAアプリ。Androidのみ対応
 * [ボッチサーチ](https://bocchi-search.com)
   - 勉強会でぼっちにならないためのキッカケ作りをするWebアプリ
+* [google-search-highlight](https://chrome.google.com/webstore/detail/google-search-highlight/flaaojfnmmijincblkoigagflgogiego)
+  - Google検索したワードを遷移先ページでハイライトしてくれるChrome拡張機能
+* [Markdown Table Creator](https://markdowntable.haramishio.xyz/)
+  - 表形式のテキストフィールドからMarkdownの表を編集することができるWebアプリ
 
 ### Blog
 * [ハラミTech](https://blog.haramishio.xyz)
@@ -133,6 +137,7 @@ Ubuntu/CentOS/WindowsServer2016/Git/Nginx/Apache/Fluentd/Embulk/Jenkins/Docker/A
   - インフラに関する講師業
       - Kubernetesハンズオン
       - Fluentdハンズオン
+      - Fastlyハンズオン
 
 ## Tipping
 Kyashにて投げ銭募集中！！！
